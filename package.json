@@ -1,0 +1,17 @@
+{
+  "name": "@danielsepulveda/eslint-config",
+  "version": "0.1.0",
+  "description": "Daniel Sepulveda's eslint config for typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Sepulveda",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier-package-json": "^2.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.30.0"
+  }
+}
