@@ -2,18 +2,37 @@
   "name": "@danielsepulveda/eslint-config",
   "version": "0.1.0",
   "description": "Daniel Sepulveda's eslint config for typescript projects",
+  "license": "MIT",
+  "author": "Daniel Sepulveda",
+  "homepage": "https://github.com/DanielSepulveda/my-eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielSepulveda/my-eslint-config"
+  },
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel Sepulveda",
-  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.30.0",
+    "typescript": "^4.0.0"
+  },
   "devDependencies": {
+    "eslint-find-rules": "^3.6.1",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.1",
+    "prettier": "^2.3.2",
     "prettier-package-json": "^2.6.0",
     "standard-version": "^9.3.0"
   },
-  "peerDependencies": {
-    "eslint": ">=7.30.0"
-  }
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "typescript"
+  ]
 }
