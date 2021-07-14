@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/DanielSepulveda/my-eslint-config/compare/v0.1.1...v1.0.0) (2021-07-14)
+
+
+### 🚀 Features
+
+* add jest config ([54e10ea](https://github.com/DanielSepulveda/my-eslint-config/commit/54e10eaac5ffe896f80b057af6de8375defab542))
+* add json config ([566bb2e](https://github.com/DanielSepulveda/my-eslint-config/commit/566bb2e342c27741213831463827b686ea4336ef))
+* add jsx a11y config ([47f8cbb](https://github.com/DanielSepulveda/my-eslint-config/commit/47f8cbbf482ff1c0194f3c15ecaea4020d339bca))
+* add react config ([a145f51](https://github.com/DanielSepulveda/my-eslint-config/commit/a145f515f3d2d0eee79952fc0b75eaa87e50b762))
+
+
+### 🐛 Bug Fixes
+
+* merge configs ([6476e0b](https://github.com/DanielSepulveda/my-eslint-config/commit/6476e0b0bfccdd43600ee6333b8bd1db06176bb4))
+* update packages and sample dir ([6084e7f](https://github.com/DanielSepulveda/my-eslint-config/commit/6084e7f06a28883e0ad4a5cf62af971ec8889577))
+
 ### [0.1.1](https://github.com/DanielSepulveda/my-eslint-config/compare/v0.1.0...v0.1.1) (2021-07-14)
 
 

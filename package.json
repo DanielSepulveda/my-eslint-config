@@ -1,6 +1,6 @@
 {
   "name": "@danielsepulveda/eslint-config",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Daniel Sepulveda's eslint config for typescript projects",
   "license": "MIT",
   "author": "Daniel Sepulveda",
