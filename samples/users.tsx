@@ -2,9 +2,6 @@ import * as React from 'react';
 
 type Props = {
   nameFilter: string;
-  param1: string;
-  param2: string;
-  param3: string;
 };
 
 function Users(props: Props) {

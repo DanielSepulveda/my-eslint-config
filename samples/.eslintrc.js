@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['../index.js'],
+  extends: ['../index.js', '../react', '../jsx-a11y', '../jest'],
   overrides: [
     {
       files: ['**/*.ts?(x)'],

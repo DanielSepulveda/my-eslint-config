@@ -14,6 +14,10 @@ module.exports = {
     es2021: true,
   },
 
+  settings: {
+    'import/ignore': ['node_modules', '.json$', '.(scss|less|css|styl)$'],
+  },
+
   overrides: [
     {
       files: '**/*.ts?(x)',
@@ -30,5 +34,25 @@ module.exports = {
     },
   ],
 
-  rules: {},
+  rules: {
+    // Import plugin overrides
+    'import/newline-after-import': 'error',
+    'import/order': [
+      'error',
+      {
+        pathGroups: [
+          {
+            pattern: 'react',
+            group: 'external',
+            position: 'before', // Prefer react as first import
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['react'],
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
+  },
 };
