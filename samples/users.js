@@ -1,10 +1,14 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
 function Users({ nameFilter }) {
   const users = [
     { name: 'Janice', friends: ['Albert', 'Nancy'], id: 23 },
   ].filter(({ name }) => name.toLowerCase().includes(nameFilter));
+
+  const name = 'daniel';
+  if (name === 'juan') {
+    console.log('ok');
+  }
 
   return (
     <div className="user-list" id="users-section" data-testid="users">
