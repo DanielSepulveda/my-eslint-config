@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/DanielSepulveda/my-eslint-config/compare/v1.0.1...v1.1.0) (2021-07-15)
+
+
+### 🚀 Features
+
+* add eslint modern module resolution patch ([bfa8e7b](https://github.com/DanielSepulveda/my-eslint-config/commit/bfa8e7b9e50818725c803ae880d970fb136e26d7))
+
 ### [1.0.1](https://github.com/DanielSepulveda/my-eslint-config/compare/v1.0.0...v1.0.1) (2021-07-15)
 
 
