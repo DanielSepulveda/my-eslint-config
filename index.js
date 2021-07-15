@@ -1,3 +1,5 @@
+require('./patch/modern-module-resolution');
+
 const fs = require('fs');
 const path = require('path');
 
